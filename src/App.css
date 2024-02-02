@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  width: 300px;
+  height: 505px;
+  background: #393b39;
+  border: 5px solid white;
+  margin: 100px 200px;
+}
+.top{
+  height: 40%;
+  color: white;
+  border-bottom:5px solid white ;
+}
+.top input{
+  background: #393b39;
+  color: white;
+  border: none;
+  width: 290px;
+  text-align: right;
+  font-size: 25px;
+  margin-top:160px ;
+}
+body{
+  background: gray;
+}
+.bottom{
+  height: 60%;
+  color: white;
+
+}
+td input:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  cursor: pointer;
+  transition: .3s;
+}
+td input{
+  height: 57px;
+  width: 70px;
+  text-align: center;
+  font-size: 25px;
+  border: none;			
+}
+.rowspan input{
+  height: 116px;
+  border: none;
+}
